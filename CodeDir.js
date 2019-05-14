@@ -13,7 +13,7 @@ var REG = {
 
 function CAP1188(_i2c) {
     this.i2c = _i2c;
-    this.addr = 0x2C;
+    this.addr = 0x29;
 }
 
 CAP1188.prototype.readBase = function(sensor) {
